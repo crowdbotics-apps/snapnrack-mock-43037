@@ -27,12 +27,14 @@ const Untitled6 = () => {
               <Text style={styles.h2}>Project Info:</Text>
               <View style={styles.separator} />
               <View style={styles.colCon}>
-                <View style={styles.col1Sub}>
-                  <Text style={styles.field}>Company</Text>
-                  <Text style={styles.field}>Project Name</Text>
-                </View>
-                <View style={styles.col2Sub}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Company"}</Text>
                   <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Project Name"}</Text>
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
@@ -118,7 +120,9 @@ const Untitled6 = () => {
               </View>
               <View style={styles.colCon}>
                 <View style={styles.colConSub}>
-                  <Text style={styles.field}>{"Microinverter/Optimizer (MLPE) Attachment Kits"}</Text>
+                  <Text style={styles.field}>
+                    {"Microinverter/Optimizer (MLPE) Attachment Kits"}
+                  </Text>
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
