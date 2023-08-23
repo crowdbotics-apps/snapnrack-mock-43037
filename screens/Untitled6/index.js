@@ -31,6 +31,13 @@ const Untitled6 = () => {
 };
 
 const styles = StyleSheet.create({
+  colCon: {
+    flexDirection: 'row'
+  },
+  h1: {
+    fontSize: 32,
+    fontWeight: 'bold'
+  },
   header: {
     height: 150,
     marginLeft: 30,
