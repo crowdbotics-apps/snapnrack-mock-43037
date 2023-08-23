@@ -20,14 +20,30 @@ const Untitled6 = () => {
           </View>
         </View>
         <View style={styles.colCon}>
-          <View style={styles.row1}></View>
-          <View style={styles.row2}></View>
+          <View style={styles.col1}>Ultra Rail Configuration Tool</View>
+          <View style={styles.col1}></View>
         </View>
       </ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
+  col1: {
+    flex: 1,
+    paddingLeft: 60,
+    paddingRight: 30
+  },
+  col2: {
+    flex: 1
+  },
+  colCon: {
+    flexDirection: "row"
+  },
+  h1: {
+    fontWeight: "bold",
+    fontSize: 32,
+    color: "#333333"
+  },
   header: {
     height: 100,
     marginLeft: 30,
@@ -43,12 +59,6 @@ const styles = StyleSheet.create({
   },
   safeArea: {
     height: "100%"
-  },
-  row1: {
-    flex: 1
-  },
-  row2: {
-    flex: 1
   },
   logo: {
     width: 138,
