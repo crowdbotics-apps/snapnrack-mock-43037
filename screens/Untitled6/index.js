@@ -21,6 +21,7 @@ const Untitled6 = () => {
           </View>
         </View>
         <View style={styles.colCon}>
+          <View style={styles.rightSide}></View>
           <View style={styles.col1}>
             <Text style={styles.h1}>Ultra Rail Configuration Tool</Text>
             <View style={styles.section}>
@@ -163,7 +164,9 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "75%",
     paddingLeft: 60,
-    paddingRight: 30
+    paddingRight: 30,
+    position: "absolute",
+    left: NaN
   },
   col2: {
     flex: 1,
@@ -258,6 +261,16 @@ const styles = StyleSheet.create({
     width: 319,
     height: 30,
     left: 20
+  },
+  rightSide: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 15,
+    color: "#777777",
+    position: "absolute",
+    left: 1183,
+    top: 103
   }
 });
 export default Untitled6;
