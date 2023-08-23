@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
   topLine: {
     backgroundColor: "#273678",
     height: 50,
+    paddingLeft: 30,
     paddingTop: 10,
     width: "100%"
   },
@@ -69,7 +70,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF"
   },
   topLineImage: {
-    width: 1440,
+    width: 1383,
     height: 32
   },
   ycFKTBzp: {
