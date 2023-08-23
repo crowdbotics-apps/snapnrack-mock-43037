@@ -25,15 +25,13 @@ const Untitled6 = () => {
             <View style={styles.section}>
               <Text style={styles.h2}>Project Info:</Text>
               <View style={styles.separator} />
-              <View style={styles.col1Sub}>
+              <View style={styles.colCon}>
                 <View style={styles.col1Sub}>
                   <Text style={styles.field}>Company</Text>
+                  <Text style={styles.field}>Project Name</Text>
                 </View>
-
-                <Text style={styles.field}>Project Name</Text>
               </View>
-            <View style={styles.col2Sub}>
-            </View>
+              <View style={styles.col2Sub}></View>
             </View>
           </View>
           <View style={styles.col1}></View>
