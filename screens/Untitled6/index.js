@@ -6,7 +6,6 @@ const Untitled6 = () => {
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       flex: 1,
-      flexDirection: "row",
       backgroundColor: "#ffffff"
     }} style={styles.lWLiFaqw}>
         <View style={styles.topLine}>

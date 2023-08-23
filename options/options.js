@@ -1,10 +1,11 @@
 export const globalOptions = {
-  name: "snapnrack-mock-43037",
-  url: "https://snapnrack-mock-43037.botics.co",
-  api: "https://snapnrack-mock-43037.botics.co/api/v1",
-  screenOptions: {
-    headerShown: false
-  }
+  "name": "snapnrack-mock-43037",
+  "url": "https://snapnrack-mock-43037.botics.co",
+  "api": "https://snapnrack-mock-43037.botics.co/api/v1",
+  "screenOptions": {
+    "headerShown": false
+  },
+  "initialRoute": "Untitled6"
 };
 export const modulesOptions = {
   "@modules/app-menu": {
