@@ -26,10 +26,8 @@ const Untitled6 = () => {
               <Text style={styles.h2}>{"Project Info:"}</Text>
               <View style={styles.separator} />
               <View style={styles.colCon}>
-                <View style={styles.col1Sub}>
-                </View>
-                <View style={styles.col1Sub}>
-                </View>
+                <View style={styles.col1Sub}><Text>Company</Text></View>
+                <View style={styles.col1Sub}><Text>Project Name</Text></View>
               </View>
             </View>
           </View>
@@ -47,11 +45,11 @@ const styles = StyleSheet.create({
   },
   col1Sub: {
     flex: 1,
-    width: '25%'
+    width: "25%"
   },
   col2Sub: {
     flex: 1,
-    width: '75%'
+    width: "75%"
   },
   colCon: {
     flexDirection: "row"
