@@ -41,13 +41,8 @@ const Untitled6 = () => {
               <Text style={styles.h2}>{"PV Module Data:"}</Text>
               <View style={styles.separator} />
               <View style={styles.colCon}>
-                <View style={styles.col1Sub}>
-                  <Text style={styles.field}>{"Module Brand"}</Text>
-                  <Text style={styles.field}>{"Model"}</Text>
-                </View>
-                <View style={styles.col2Sub}>
-                  <TextInput style={styles.textInput}></TextInput>
-
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Module brand"}</Text>
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
@@ -112,11 +107,13 @@ const styles = StyleSheet.create({
   },
   colConSub: {
     width: "100%",
-    flexDirection: "row"
+    flexDirection: "row",
+    padding: 10
   },
   field: {
-    marginTop: 19,
-    flex: 1
+    marginTop: 6,
+    flex: 1,
+    width: "30%"
   },
   h1: {
     fontWeight: "bold",
@@ -184,9 +181,10 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#cccccc",
     borderRadius: 10,
-    margin: 10,
-    width: 250,
-    height: 30
+    marginTop: 10,
+    width: 319,
+    height: 30,
+    left: 20
   }
 });
 export default Untitled6;
