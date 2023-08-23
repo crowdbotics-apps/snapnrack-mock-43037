@@ -23,8 +23,8 @@ const Untitled6 = () => {
           <View style={styles.col1}>
             <Text style={styles.h1}>Ultra Rail Configuration Tool</Text>
             <View style={styles.section}>
+              <Text style={styles.h2}>{"Project Info:"}</Text>
               <View style={styles.separator} />
-              <Text style={styles.h2}>Project Info</Text>
             </View>
           </View>
           <View style={styles.col1}></View>
@@ -38,9 +38,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 60,
     paddingRight: 30
-  },
-  col2: {
-    flex: 1
   },
   colCon: {
     flexDirection: "row"
@@ -76,7 +73,7 @@ const styles = StyleSheet.create({
     height: "100%"
   },
   separator: {
-    backgroundColor: "#fff",
+    backgroundColor: "#333333",
     height: 1,
     width: "100%"
   },
