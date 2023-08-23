@@ -1,6 +1,6 @@
 import { ImageBackground } from "react-native";
 import React from "react";
-import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { View, StyleSheet, ScrollView, SafeAreaView, Text } from "react-native";
 
 const Untitled6 = () => {
   return <SafeAreaView style={styles.safeArea}>
@@ -20,7 +20,13 @@ const Untitled6 = () => {
           </View>
         </View>
         <View style={styles.colCon}>
-          <View style={styles.col1}>Ultra Rail Configuration Tool</View>
+          <View style={styles.col1}>
+            <Text style={styles.h1}>Ultra Rail Configuration Tool</Text>
+            <View style={styles.section}>
+              <View style={styles.separator} />
+              <Text style={styles.h2}>Project Info</Text>
+            </View>
+          </View>
           <View style={styles.col1}></View>
         </View>
       </ScrollView>
@@ -42,7 +48,15 @@ const styles = StyleSheet.create({
   h1: {
     fontWeight: "bold",
     fontSize: 32,
-    color: "#333333"
+    color: "#333333",
+    marginBottom: 10,
+    marginTop: 10
+  },
+  h2: {
+    fontSize: 24,
+    color: "#333333",
+    marginBottom: 5,
+    marginTop: 5
   },
   header: {
     height: 100,
@@ -60,6 +74,11 @@ const styles = StyleSheet.create({
   },
   safeArea: {
     height: "100%"
+  },
+  separator: {
+    backgroundColor: "#fff",
+    height: 1,
+    width: "100%"
   },
   logo: {
     width: 138,
