@@ -32,8 +32,12 @@ const Untitled6 = () => {
                   <Text style={styles.field}>Project Name</Text>
                 </View>
                 <View style={styles.col2Sub}>
-                  <TextInput style={styles.textInput}></TextInput>
-                  <TextInput style={styles.textInput}></TextInput>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
                 </View>
               </View>
             </View>
@@ -98,6 +102,9 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     width: "100%"
   },
+  padding: {
+    marginTop: 10
+  },
   safeArea: {
     height: "100%"
   },
@@ -128,9 +135,9 @@ const styles = StyleSheet.create({
   textInput: {
     backgroundColor: "#F0F0F2",
     borderColor: "#cccccc",
+    borderRadius: 10,
     width: 250,
-    height: 30,
-    marginTop: 20
+    height: 30
   }
 });
 export default Untitled6;
