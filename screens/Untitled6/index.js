@@ -23,11 +23,15 @@ const Untitled6 = () => {
           <View style={styles.col1}>
             <Text style={styles.h1}>Ultra Rail Configuration Tool</Text>
             <View style={styles.section}>
-              <Text style={styles.h2}>{"Project Info:"}</Text>
+              <Text style={styles.h2}>Project Info:</Text>
               <View style={styles.separator} />
-              <View style={styles.colCon}>
-                <View style={styles.col1Sub}><Text>Company</Text></View>
-                <View style={styles.col1Sub}><Text>Project Name</Text></View>
+              <View>
+                <View style={styles.col1Sub}>
+                  <Text>Company</Text>
+                </View>
+                <View style={styles.col1Sub}>
+                  <Text>Project Name</Text>
+                </View>
               </View>
             </View>
           </View>
