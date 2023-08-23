@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   header: {
-    height: 150,
+    height: 100,
     marginLeft: 30,
     marginRight: 30,
     padding: 30,
