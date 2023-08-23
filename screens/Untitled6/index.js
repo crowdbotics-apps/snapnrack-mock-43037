@@ -55,10 +55,7 @@ const styles = StyleSheet.create({
   },
   col2Sub: {
     flex: 1,
-    width: "75%",
-    borderRadius: 0,
-    borderWidth: 0,
-    borderColor: "#333333"
+    width: "75%"
   },
   colCon: {
     flexDirection: "row"
