@@ -1,4 +1,3 @@
-import { TextInput } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView, Text } from "react-native";
@@ -26,18 +25,18 @@ const Untitled6 = () => {
             <View style={styles.section}>
               <Text style={styles.h2}>Project Info:</Text>
               <View style={styles.separator} />
-              <View>
+              <View style={styles.col1Sub}>
                 <View style={styles.col1Sub}>
                   <Text style={styles.field}>Company</Text>
                 </View>
-                <View style={styles.col1Sub}>
-                  <Text style={styles.field}>Project Name</Text>
-                </View>
-                
+
+                <Text style={styles.field}>Project Name</Text>
               </View>
+            <View style={styles.col2Sub}>
+            </View>
             </View>
           </View>
-          <View style={styles.col1Sub}><TextInput style={styles.AXIwWMOZ}></TextInput></View>
+          <View style={styles.col1}></View>
         </View>
       </ScrollView>
     </SafeAreaView>;
@@ -119,7 +118,8 @@ const styles = StyleSheet.create({
   },
   AXIwWMOZ: {
     backgroundColor: "#ffffff",
-    borderColor: "#cccccc",
+    borderColor: "#333333",
+    borderRadius: 5,
     width: 150,
     height: 30
   }
