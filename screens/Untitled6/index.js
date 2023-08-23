@@ -37,7 +37,7 @@ const Untitled6 = () => {
               </View>
             </View>
           </View>
-          <View style={styles.col1}></View>
+          <View style={styles.col2}></View>
         </View>
       </ScrollView>
     </SafeAreaView>;
@@ -46,6 +46,13 @@ const Untitled6 = () => {
 const styles = StyleSheet.create({
   col1: {
     flex: 1,
+    width: "75%",
+    paddingLeft: 60,
+    paddingRight: 30
+  },
+  col2: {
+    flex: 1,
+    width: "25%",
     paddingLeft: 60,
     paddingRight: 30
   },
@@ -117,17 +124,10 @@ const styles = StyleSheet.create({
     left: 470,
     top: -13
   },
-  AXIwWMOZ: {
-    backgroundColor: "#ffffff",
-    borderColor: "#333333",
-    borderRadius: 5,
-    width: 150,
-    height: 30
-  },
   cqErCegF: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "#F0F0F2",
     borderColor: "#cccccc",
-    width: 150,
+    width: 250,
     height: 30
   }
 });
