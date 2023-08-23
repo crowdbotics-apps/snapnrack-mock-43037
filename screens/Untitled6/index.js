@@ -134,24 +134,8 @@ const Untitled6 = () => {
                 </View>
               </View>
             </View>
-            <View style={styles.section}>
-              <Text style={styles.h2}>Project Info:</Text>
-              <View style={styles.separator} />
-              <View style={styles.colCon}>
-                <View style={styles.col1Sub}>
-                  <Text style={styles.field}>Company</Text>
-                  <Text style={styles.field}>Project Name</Text>
-                </View>
-                <View style={styles.col2Sub}>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
-                </View>
-              </View>
-            </View>
+            
+
           </View>
           <View style={styles.col2}></View>
         </View>
@@ -263,13 +247,13 @@ const styles = StyleSheet.create({
     left: 20
   },
   rightSide: {
-    height: 60,
-    width: 140,
+    height: 301,
+    width: 223,
     backgroundColor: "#E4E4E4",
     borderRadius: 15,
     color: "#777777",
     position: "absolute",
-    left: 1183,
+    left: 1159,
     top: 103
   }
 });
