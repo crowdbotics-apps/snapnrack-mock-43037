@@ -42,12 +42,12 @@ const Untitled6 = () => {
               </View>
             </View>
             <View style={styles.section}>
-              <Text style={styles.h2}>Project Info:</Text>
+              <Text style={styles.h2}>{"PV Module Data:"}</Text>
               <View style={styles.separator} />
               <View style={styles.colCon}>
                 <View style={styles.col1Sub}>
-                  <Text style={styles.field}>Company</Text>
-                  <Text style={styles.field}>Project Name</Text>
+                  <Text style={styles.field}>{"Module Brand"}</Text>
+                  <Text style={styles.field}>{"Model"}</Text>
                 </View>
                 <View style={styles.col2Sub}>
                   <View style={styles.padding}>
@@ -130,6 +130,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#333333",
     height: 1,
     width: "100%"
+  },
+  section: {
+    marginTop: 10
   },
   logo: {
     width: 138,
