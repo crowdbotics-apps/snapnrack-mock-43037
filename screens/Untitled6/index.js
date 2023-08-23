@@ -59,6 +59,51 @@ const Untitled6 = () => {
                 </View>
               </View>
             </View>
+            <View style={styles.section}>
+              <Text style={styles.h2}>{"Environmental Requirements:"}</Text>
+              <View style={styles.separator} />
+              <View style={styles.colCon}>
+                <View style={styles.col1Sub}>
+                  <Text style={styles.field}>{"Exposure Category"}</Text>
+                  <Text style={styles.field}>{"Building Standard"}</Text>
+                  <Text style={styles.field}>{"Snow Load"}</Text>
+                  <Text style={styles.field}>{"Wind Speed"}</Text>
+                  <Text style={styles.field}>{"Rafter Spacing"}</Text>
+                  <Text style={styles.field}>{"Roof Attachment"}</Text>
+                  <Text style={styles.field}>{"End Clamp Preference"}</Text>
+                  <Text style={styles.field}>{"Array Skirt(s)"}</Text>
+                  <Text style={styles.field}>{"Rail Finish"}</Text>
+                  <Text style={styles.field}>{"3 Rail Option?"}</Text>
+                  <Text style={styles.field}>{"Microinverter/Optimizer (MLPE) Attachment Kits"}</Text>
+                </View>
+                <View style={styles.col2Sub}>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View style={styles.section}>
+              <Text style={styles.h2}>Project Info:</Text>
+              <View style={styles.separator} />
+              <View style={styles.colCon}>
+                <View style={styles.col1Sub}>
+                  <Text style={styles.field}>Company</Text>
+                  <Text style={styles.field}>Project Name</Text>
+                </View>
+                <View style={styles.col2Sub}>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
+                  <View style={styles.padding}>
+                    <TextInput style={styles.textInput}></TextInput>
+                  </View>
+                </View>
+              </View>
+            </View>
           </View>
           <View style={styles.col2}></View>
         </View>
