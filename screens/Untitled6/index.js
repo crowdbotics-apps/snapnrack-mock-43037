@@ -33,6 +33,7 @@ const Untitled6 = () => {
                 </View>
                 <View style={styles.col2Sub}>
                   <TextInput style={styles.textInput}></TextInput>
+                  <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
             </View>
