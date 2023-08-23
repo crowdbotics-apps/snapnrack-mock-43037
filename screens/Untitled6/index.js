@@ -32,7 +32,7 @@ const Untitled6 = () => {
                   <Text style={styles.field}>Project Name</Text>
                 </View>
                 <View style={styles.col2Sub}>
-                  <TextInput style={styles.cqErCegF}></TextInput>
+                  <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
             </View>
@@ -124,11 +124,12 @@ const styles = StyleSheet.create({
     left: 470,
     top: -13
   },
-  cqErCegF: {
+  textInput: {
     backgroundColor: "#F0F0F2",
     borderColor: "#cccccc",
     width: 250,
-    height: 30
+    height: 30,
+    marginTop: 20
   }
 });
 export default Untitled6;
