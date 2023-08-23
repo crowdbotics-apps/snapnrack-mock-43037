@@ -32,12 +32,8 @@ const Untitled6 = () => {
                   <Text style={styles.field}>Project Name</Text>
                 </View>
                 <View style={styles.col2Sub}>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
+                  <TextInput style={styles.textInput}></TextInput>
+                  <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
             </View>
@@ -50,12 +46,9 @@ const Untitled6 = () => {
                   <Text style={styles.field}>{"Model"}</Text>
                 </View>
                 <View style={styles.col2Sub}>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
+                  <TextInput style={styles.textInput}></TextInput>
+
+                  <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
             </View>
@@ -63,26 +56,9 @@ const Untitled6 = () => {
               <Text style={styles.h2}>{"Environmental Requirements:"}</Text>
               <View style={styles.separator} />
               <View style={styles.colCon}>
-                <View style={styles.col1Sub}>
+                <View style={styles.colConSub}>
                   <Text style={styles.field}>{"Exposure Category"}</Text>
-                  <Text style={styles.field}>{"Building Standard"}</Text>
-                  <Text style={styles.field}>{"Snow Load"}</Text>
-                  <Text style={styles.field}>{"Wind Speed"}</Text>
-                  <Text style={styles.field}>{"Rafter Spacing"}</Text>
-                  <Text style={styles.field}>{"Roof Attachment"}</Text>
-                  <Text style={styles.field}>{"End Clamp Preference"}</Text>
-                  <Text style={styles.field}>{"Array Skirt(s)"}</Text>
-                  <Text style={styles.field}>{"Rail Finish"}</Text>
-                  <Text style={styles.field}>{"3 Rail Option?"}</Text>
-                  <Text style={styles.field}>{"Microinverter/Optimizer (MLPE) Attachment Kits"}</Text>
-                </View>
-                <View style={styles.col2Sub}>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
-                  <View style={styles.padding}>
-                    <TextInput style={styles.textInput}></TextInput>
-                  </View>
+                  <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
             </View>
@@ -125,8 +101,7 @@ const styles = StyleSheet.create({
     paddingRight: 30
   },
   col1Sub: {
-    flex: 1,
-    width: "25%"
+    flex: 1
   },
   col2Sub: {
     flex: 1,
@@ -135,8 +110,13 @@ const styles = StyleSheet.create({
   colCon: {
     flexDirection: "row"
   },
+  colConSub: {
+    width: "100%",
+    flexDirection: "row"
+  },
   field: {
-    marginTop: 20
+    marginTop: 19,
+    flex: 1
   },
   h1: {
     fontWeight: "bold",
@@ -166,7 +146,8 @@ const styles = StyleSheet.create({
     width: "100%"
   },
   padding: {
-    marginTop: 8
+    marginTop: 5,
+    marginBottom: 5
   },
   safeArea: {
     height: "100%"
@@ -200,8 +181,10 @@ const styles = StyleSheet.create({
   },
   textInput: {
     backgroundColor: "#F0F0F2",
+    borderWidth: 1,
     borderColor: "#cccccc",
     borderRadius: 10,
+    margin: 10,
     width: 250,
     height: 30
   }
