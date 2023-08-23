@@ -46,6 +46,12 @@ const Untitled6 = () => {
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Model"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
             </View>
             <View style={styles.section}>
               <Text style={styles.h2}>{"Environmental Requirements:"}</Text>
@@ -53,6 +59,66 @@ const Untitled6 = () => {
               <View style={styles.colCon}>
                 <View style={styles.colConSub}>
                   <Text style={styles.field}>{"Exposure Category"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Building Standard"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Snow Load"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Wind Speed"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Rafter Spacing"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Roof Attachment"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"End Clamp Preference"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Array Skirt(s)"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Rail Finish"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"3 Rail Option?"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"3 Rail Option?"}</Text>
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
@@ -102,18 +168,15 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "75%"
   },
-  colCon: {
-    flexDirection: "row"
-  },
+  colCon: {},
   colConSub: {
-    width: "100%",
+    width: "90%",
     flexDirection: "row",
     padding: 10
   },
   field: {
     marginTop: 6,
-    flex: 1,
-    width: "30%"
+    flex: 1
   },
   h1: {
     fontWeight: "bold",
