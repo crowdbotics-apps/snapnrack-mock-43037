@@ -118,7 +118,13 @@ const Untitled6 = () => {
               </View>
               <View style={styles.colCon}>
                 <View style={styles.colConSub}>
-                  <Text style={styles.field}>{"3 Rail Option?"}</Text>
+                  <Text style={styles.field}>{"Microinverter/Optimizer (MLPE) Attachment Kits"}</Text>
+                  <TextInput style={styles.textInput}></TextInput>
+                </View>
+              </View>
+              <View style={styles.colCon}>
+                <View style={styles.colConSub}>
+                  <Text style={styles.field}>{"Tilt Up?"}</Text>
                   <TextInput style={styles.textInput}></TextInput>
                 </View>
               </View>
